@@ -3,7 +3,7 @@
  * Copyright (c) 2014 by Paul Stoffregen <paul@pjrc.com> (Transaction API)
  * Copyright (c) 2014 by Matthijs Kooijman <matthijs@stdin.nl> (SPISettings AVR)
  * Copyright (c) 2014 by Andrew J. Kroll <xxxajk@gmail.com> (atomicity fixes)
- * Copyright (c) 2016 by Bryan Craker <bryan.craker@superiontech.com> (Extra SPI interfaces on the XLR8 Board)
+ * Copyright (c) 2016 by Alorium Technology, Bryan Craker <info@aloriumtech.com> (Extra SPI interfaces on the XLR8 Board)
  * SPI Master library for arduino.
  *
  * This file is free software; you can redistribute it and/or modify

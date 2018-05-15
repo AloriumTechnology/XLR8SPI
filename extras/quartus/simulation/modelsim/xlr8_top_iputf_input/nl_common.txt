@@ -1,3 +1,0 @@
-family_language_pairs
-max10 verilog
-end family_language pairs

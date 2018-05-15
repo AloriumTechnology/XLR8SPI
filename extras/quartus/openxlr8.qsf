@@ -1,0 +1,34 @@
+#==============================================================================
+# Copyright (c) 2016 Alorium Technology.  All right reserved.
+#==============================================================================
+#
+# File Name  : openxlr8.qsf
+# Author     : Steve Phillips
+# Contact    : support@aloriumtech.com
+# Description:
+#
+# This is the file that the OpenXLR8 user should use to set all the
+# Quartus settings specific to the OpenXLR8 being developed. This is
+# typically used to include the RTL files needed.
+#
+# Quartus settings for XLR8 project
+#  http://www.aloriumtech.com/xlr8
+#  https://github.com/AloriumTechnology
+#==============================================================================
+
+#==============================================================================
+# Set paths to specifc source files as need here
+
+# Load settings file specific to this OpenXLR8 module
+set_global_assignment -name QXP_FILE ../../../XLR8Core/extras/quartus/xlr8_spi_64MHz.qxp
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/avr_spi_core.v
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/avr_spi_pkg.svh
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/avr_spi_sckd_rst_gen.v
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/avr_spi_sckd.v
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/avr_spi.v
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/bit_def_pack.vh
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/rsnc_bit.v
+#set_global_assignment -name SYSTEMVERILOG_FILE ../../../XLR8Build/extras/rtl/xlr8_spi.v
+
+
+#==============================================================================
